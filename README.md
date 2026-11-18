@@ -1,7 +1,7 @@
 # Schede di laboratorio Arduino: dai LED ai sensori
 
 Tutto il codice del libro **_Schede di laboratorio Arduino – Dai LED ai sensori_** di Riccardo Annolfi:
-27 progetti per imparare Arduino montando circuiti veri, dal primo LED al rover con due motori.
+30 progetti per imparare Arduino montando circuiti veri, dal primo LED al rover, al radar sentinella e alla serra automatica.
 
 Non serve ricopiare niente dal libro: scarica il repository e apri lo sketch della scheda che stai facendo.
 
@@ -50,6 +50,9 @@ Non serve ricopiare niente dal libro: scarica il repository e apri lo sketch del
 | 25 | Bumper con microswitch | Base | [es25_bumper/es25_bumper.ino](sketch/es25_bumper/es25_bumper.ino) | — |
 | 26 | Motore DC e driver L298N | Intermedio | [es26_motore/es26_motore.ino](sketch/es26_motore/es26_motore.ino) | — |
 | 27 | Il rover e la libreria Rover | Avanzato | [es27_rover](sketch/es27_rover/) | — |
+| 28 | Il servomotore | Base | [es28_servo/es28_servo.ino](sketch/es28_servo/es28_servo.ino) | [wokwi_es28_servo](wokwi/wokwi_es28_servo/) |
+| 29 | Il radar sentinella | Avanzato | [es29_radar/es29_radar.ino](sketch/es29_radar/es29_radar.ino) | [wokwi_es29_radar](wokwi/wokwi_es29_radar/) |
+| 30 | La serra automatica | Intermedio | [es30_serra/es30_serra.ino](sketch/es30_serra/es30_serra.ino) | [wokwi_es30_serra](wokwi/wokwi_es30_serra/) |
 
 ## Licenza
 

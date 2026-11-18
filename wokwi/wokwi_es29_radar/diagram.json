@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "author": "Riccardo Annolfi",
+  "editor": "wokwi",
+  "parts": [
+    {"type": "wokwi-arduino-uno", "id": "uno", "top": 200, "left": 0, "attrs": {}},
+    {"type": "wokwi-hc-sr04", "id": "s1", "top": -150, "left": -40, "attrs": {"distance": "200"}},
+    {"type": "wokwi-hc-sr04", "id": "s2", "top": -150, "left": 130, "attrs": {"distance": "200"}},
+    {"type": "wokwi-hc-sr04", "id": "s3", "top": -150, "left": 300, "attrs": {"distance": "200"}},
+    {"type": "wokwi-servo", "id": "servo1", "top": -60, "left": 470, "attrs": {}},
+    {"type": "wokwi-buzzer", "id": "bz1", "top": 20, "left": 500, "attrs": {"volume": "0.2"}},
+    {"type": "wokwi-resistor", "id": "r1", "top": 110, "left": 470, "attrs": {"value": "220"}},
+    {"type": "wokwi-led", "id": "led1", "top": 60, "left": 600, "attrs": {"color": "red"}}
+  ],
+  "connections": [
+    ["s1:VCC", "uno:5V", "red", []],
+    ["s1:GND", "uno:GND.1", "black", []],
+    ["s1:TRIG", "uno:13", "blue", []],
+    ["s1:ECHO", "uno:12", "green", []],
+    ["s2:VCC", "uno:5V", "red", []],
+    ["s2:GND", "uno:GND.1", "black", []],
+    ["s2:TRIG", "uno:11", "blue", []],
+    ["s2:ECHO", "uno:10", "green", []],
+    ["s3:VCC", "uno:5V", "red", []],
+    ["s3:GND", "uno:GND.1", "black", []],
+    ["s3:TRIG", "uno:9", "blue", []],
+    ["s3:ECHO", "uno:8", "green", []],
+    ["servo1:GND", "uno:GND.2", "black", []],
+    ["servo1:V+", "uno:5V", "red", []],
+    ["servo1:PWM", "uno:7", "orange", []],
+    ["bz1:2", "uno:6", "violet", []],
+    ["bz1:1", "uno:GND.3", "black", []],
+    ["uno:5", "r1:1", "gold", []],
+    ["r1:2", "led1:A", "gold", []],
+    ["led1:C", "uno:GND.3", "black", []]
+  ],
+  "dependencies": {}
+}

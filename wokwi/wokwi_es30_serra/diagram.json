@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "author": "Riccardo Annolfi",
+  "editor": "wokwi",
+  "parts": [
+    {"type": "wokwi-arduino-uno", "id": "uno", "top": 200, "left": 0, "attrs": {}},
+    {"type": "wokwi-potentiometer", "id": "terreno", "top": -60, "left": 40, "attrs": {}},
+    {"type": "wokwi-dht22", "id": "dht1", "top": -90, "left": 180, "attrs": {}},
+    {"type": "wokwi-relay-module", "id": "rele1", "top": -80, "left": 300, "attrs": {}},
+    {"type": "wokwi-resistor", "id": "r1", "top": -150, "left": 470, "rotate": 90, "attrs": {"value": "220"}},
+    {"type": "wokwi-led", "id": "pompa", "top": -110, "left": 520, "attrs": {"color": "blue", "label": "pompa"}}
+  ],
+  "connections": [
+    ["terreno:VCC", "uno:7", "red", []],
+    ["terreno:GND", "uno:GND.1", "black", []],
+    ["terreno:SIG", "uno:A0", "gold", []],
+    ["dht1:VCC", "uno:5V", "red", []],
+    ["dht1:GND", "uno:GND.2", "black", []],
+    ["dht1:SDA", "uno:2", "green", []],
+    ["rele1:VCC", "uno:5V", "red", []],
+    ["rele1:GND", "uno:GND.3", "black", []],
+    ["rele1:IN", "uno:8", "orange", []],
+    ["rele1:COM", "uno:5V", "red", []],
+    ["rele1:NO", "r1:1", "blue", []],
+    ["r1:2", "pompa:A", "blue", []],
+    ["pompa:C", "uno:GND.3", "black", []]
+  ],
+  "dependencies": {}
+}
