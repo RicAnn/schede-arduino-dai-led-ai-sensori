@@ -33,7 +33,7 @@ Non serve ricopiare niente dal libro: scarica il repository e apri lo sketch del
 | 8 | Fotoresistenza | Base | [es8_fotoresistenza/es8_fotoresistenza.ino](sketch/es8_fotoresistenza/es8_fotoresistenza.ino) | — |
 | 9 | Sensore di gas MQ-2 | Intermedio | [es9_gas/es9_gas.ino](sketch/es9_gas/es9_gas.ino) | [wokwi_es9_gas](wokwi/wokwi_es9_gas/) |
 | 10 | Temperatura e umidità | Intermedio | [es10_dht/es10_dht.ino](sketch/es10_dht/es10_dht.ino)<br>[es10b_tmp36_tinkercad](sketch/es10b_tmp36_tinkercad/es10b_tmp36_tinkercad.ino) (Tinkercad) | [wokwi_es10_dht](wokwi/wokwi_es10_dht/) |
-| 11 | Sensore a ultrasuoni | Intermedio | [es11_ultrasuoni/es11_ultrasuoni.ino](sketch/es11_ultrasuoni/es11_ultrasuoni.ino) | — |
+| 11 | Sensore a ultrasuoni | Intermedio | [es11_ultrasuoni/es11_ultrasuoni.ino](sketch/es11_ultrasuoni/es11_ultrasuoni.ino) | [wokwi_es11_ultrasuoni](wokwi/wokwi_es11_ultrasuoni/) |
 | 12 | Sensore di movimento PIR | Base | [es12_pir/es12_pir.ino](sketch/es12_pir/es12_pir.ino) | — |
 | 13 | Umidità del terreno | Base | [es13_terreno/es13_terreno.ino](sketch/es13_terreno/es13_terreno.ino) | — |
 | 14 | Ricevitore IR e telecomando | Intermedio | [es14_telecomando/es14_telecomando.ino](sketch/es14_telecomando/es14_telecomando.ino) | [wokwi_es14_telecomando](wokwi/wokwi_es14_telecomando/) |
