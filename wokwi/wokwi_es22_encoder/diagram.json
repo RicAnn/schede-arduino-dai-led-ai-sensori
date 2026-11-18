@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "author": "Riccardo Annolfi",
+  "editor": "wokwi",
+  "parts": [
+    {"type": "wokwi-arduino-uno", "id": "uno", "top": 200, "left": 0, "attrs": {}},
+    {"type": "wokwi-ky-040", "id": "enc1", "top": -40, "left": 200, "attrs": {}}
+  ],
+  "connections": [
+    ["enc1:VCC", "uno:5V", "red", []],
+    ["enc1:GND", "uno:GND.1", "black", []],
+    ["enc1:CLK", "uno:4", "green", []],
+    ["enc1:DT", "uno:3", "blue", []],
+    ["enc1:SW", "uno:2", "violet", []]
+  ],
+  "dependencies": {}
+}

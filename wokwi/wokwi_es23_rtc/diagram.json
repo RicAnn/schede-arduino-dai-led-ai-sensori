@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "author": "Riccardo Annolfi",
+  "editor": "wokwi",
+  "parts": [
+    {"type": "wokwi-arduino-uno", "id": "uno", "top": 200, "left": 0, "attrs": {}},
+    {"type": "wokwi-ds1307", "id": "rtc1", "top": -30, "left": 180, "attrs": {}}
+  ],
+  "connections": [
+    ["rtc1:5V", "uno:5V", "red", []],
+    ["rtc1:GND", "uno:GND.1", "black", []],
+    ["rtc1:SDA", "uno:A4", "blue", []],
+    ["rtc1:SCL", "uno:A5", "gold", []]
+  ],
+  "dependencies": {}
+}

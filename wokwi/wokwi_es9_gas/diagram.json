@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "author": "Riccardo Annolfi",
+  "editor": "wokwi",
+  "parts": [
+    {"type": "wokwi-arduino-uno", "id": "uno", "top": 200, "left": 0, "attrs": {}},
+    {"type": "wokwi-gas-sensor", "id": "gas1", "top": -10, "left": 60, "attrs": {}},
+    {"type": "wokwi-buzzer", "id": "bz1", "top": -10, "left": 260, "attrs": {"volume": "0.2"}}
+  ],
+  "connections": [
+    ["gas1:VCC", "uno:5V", "red", []],
+    ["gas1:GND", "uno:GND.1", "black", []],
+    ["gas1:AOUT", "uno:A0", "gold", []],
+    ["gas1:DOUT", "uno:7", "violet", []],
+    ["bz1:2", "uno:3", "orange", []],
+    ["bz1:1", "uno:GND.2", "black", []]
+  ],
+  "dependencies": {}
+}

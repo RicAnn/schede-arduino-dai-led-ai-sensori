@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "author": "Riccardo Annolfi",
+  "editor": "wokwi",
+  "parts": [
+    {"type": "wokwi-arduino-uno", "id": "uno", "top": 200, "left": 0, "attrs": {}},
+    {"type": "wokwi-analog-joystick", "id": "joy1", "top": -40, "left": 180, "attrs": {}}
+  ],
+  "connections": [
+    ["joy1:VCC", "uno:5V", "red", []],
+    ["joy1:GND", "uno:GND.1", "black", []],
+    ["joy1:HORZ", "uno:A0", "gold", []],
+    ["joy1:VERT", "uno:A1", "orange", []],
+    ["joy1:SEL", "uno:A2", "green", []]
+  ],
+  "dependencies": {}
+}
