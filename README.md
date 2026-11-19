@@ -10,6 +10,16 @@ Non serve ricopiare niente dal libro: scarica il repository e apri lo sketch del
 - **Senza installare niente:** in alto su questa pagina premi **Code → Download ZIP** e scompatta il file.
 - **Con git:** `git clone https://github.com/RicAnn/schede-arduino-dai-led-ai-sensori.git`
 
+## Il codice a pacchetti
+
+Se stai facendo un gruppo di schede alla volta, scarica solo il pacchetto che ti serve: un clic e scarichi uno ZIP con una cartella per scheda, nell'ordine in cui si affrontano, con lo sketch e, dove c'è, il circuito per Wokwi. Scompattalo e leggi `LEGGIMI.txt`.
+
+| Pacchetto | Schede | Scarica |
+|---|---|---|
+| 1 – Le basi | 1, 2, 3, 7, 26, 28 | [Codice_1_Le_basi.zip](https://github.com/RicAnn/schede-arduino-dai-led-ai-sensori/raw/main/pacchetti/Codice_1_Le_basi.zip) |
+| 2 – I sensi del robot | 8, 10, 11, 12, 13, 14, 15, 18, 19 | [Codice_2_I_sensi_del_robot.zip](https://github.com/RicAnn/schede-arduino-dai-led-ai-sensori/raw/main/pacchetti/Codice_2_I_sensi_del_robot.zip) |
+| 3 – Parlare e mostrare | 4, 5, 6 | [Codice_3_Parlare_e_mostrare.zip](https://github.com/RicAnn/schede-arduino-dai-led-ai-sensori/raw/main/pacchetti/Codice_3_Parlare_e_mostrare.zip) |
+
 ## Come è organizzato
 
 | Cartella | Che cosa contiene |
